@@ -1,0 +1,14 @@
+torch
+torchvision
+vit-pytorch
+cupy
+dgl
+einops
+typed-argument-parser
+tqdm
+
+matplotlib
+seaborn 
+pandas 
+numpy
+scipy

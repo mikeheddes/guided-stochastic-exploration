@@ -1,4 +1,4 @@
-# Always-Sparse Training with Guided Stochastic Exploration
+# Always-Sparse Training by Growing Connections with Guided Stochastic Exploration
 
 The required dependiencies are listed in `requirements.txt`.
 
@@ -20,7 +20,7 @@ python our_training.py --model resnet56 --dataset cifar10 --prune magnitude --gr
 
 The experiments for the related work can be run with the following commands:
 ```bash
-# Lottery Ticket Hypothesis
+# Lottery ticket hypothesis
 python lottery_training.py --model resnet56 --dataset cifar10
 
 # Gradual sparse training
